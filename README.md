@@ -115,13 +115,13 @@ Standardmäßig teilt Proxmox den Festplattenspeicher auf (`local` für ISOs/Con
 
 1. **Prüfen des Speichers:** Ansicht des bisher aufgeteilten Speichers.
    <details>
-    <summary>Ansicht anzeigen: Local LVM Ansicht</summary>
+    <summary>Ansicht anzeigen: Local LVM</summary>
   
     ![Local LVM Ansicht](screenshots/10_Local_lvm.png)
    </details>
 
    <details>
-    <summary>Ansicht anzeigen: Main Local Ansicht</summary>
+    <summary>Ansicht anzeigen: Main Local</summary>
   
     ![Main Local Ansicht](screenshots/11_Main_local.png)
    </details>
