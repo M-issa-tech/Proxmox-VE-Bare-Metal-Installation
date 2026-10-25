@@ -39,7 +39,7 @@ Vor dem Start sollten die offiziellen Hardwarerichtlinien geprüft werden:
 
 2. Lade das Tool **Rufus** (`rufus-4.15.exe`) herunter und flashe das ISO-Image auf einen USB-Stick, um ein bootfähiges Installationsmedium zu erstellen.
    <details>
-    <summary>📸 Screenshot: Rufus Bootable USB Erstellung</summary>
+    <summary>Ansicht anzeigen: Rufus Bootable USB Erstellung</summary>
   
     ![Rufus Bootable USB Erstellung](screenshots/02_Rufus.png)
    </details>
@@ -53,28 +53,28 @@ Vor dem Start sollten die offiziellen Hardwarerichtlinien geprüft werden:
 
 - **EULA & Lizenzvereinbarung:** Bestätige die Nutzungsbedingungen, um fortzufahren.
    <details>
-    <summary>📸 Screenshot: EULA Bestätigung</summary>
+    <summary>Ansicht anzeigen: EULA Bestätigung</summary>
   
     ![EULA Bestätigung](screenshots/03_eula_agreement.png)
    </details>
 
 - **Ziel-Festplatte:** Wähle die Hauptfestplatte aus. _Achtung: Dies löscht alle Daten auf der Festplatte vollständig!_
    <details>
-    <summary>📸 Screenshot: Ziel-Festplatte Auswahl</summary>
+    <summary>Ansicht anzeigen: Ziel-Festplatte Auswahl</summary>
   
     ![Ziel-Festplatte Auswahl](screenshots/04_target_disk_selection.png)
    </details>
 
 - **Land & Zeitzone:** Trage dein Land (z.B. Deutschland) und die Zeitzone ein.
    <details>
-    <summary>📸 Screenshot: Standort und Zeitzone</summary>
+    <summary>Ansicht anzeigen: Standort und Zeitzone</summary>
   
     ![Standort und Zeitzone](screenshots/05_location_timezone.png)
    </details>
 
 - **Admin-Anmeldedaten:** Vergib ein sicheres Root-Passwort und trage eine gültige E-Mail-Adresse für Systembenachrichtigungen ein.
    <details>
-    <summary>📸 Screenshot: Admin Zugangsdaten</summary>
+    <summary>Ansicht anzeigen: Admin Zugangsdaten</summary>
   
     ![Admin Zugangsdaten](screenshots/06_admin_credentials.png)
    </details>
@@ -88,14 +88,14 @@ Vor dem Start sollten die offiziellen Hardwarerichtlinien geprüft werden:
 - Konfiguriere das Netzwerk mit Hostnamen, statischer IPv4-Adresse (inklusive CIDR wie `/24` für Heimnetze), Gateway und DNS.
 
    <details>
-    <summary>📸 Screenshot: Netzwerkkonfiguration</summary>
+    <summary>Ansicht anzeigen: Netzwerkkonfiguration</summary>
   
     ![Netzwerkkonfiguration](screenshots/07_network_configuration.png)
    </details>
 
 - **Installations-Zusammenfassung:** Überprüfe alle Einstellungen und starte die Installation.
    <details>
-    <summary>📸 Screenshot: Installations-Zusammenfassung</summary>
+    <summary>Ansicht anzeigen: Installations-Zusammenfassung</summary>
   
     ![Installations-Zusammenfassung](screenshots/08_installation_summary.png)
    </details>
@@ -115,20 +115,20 @@ Standardmäßig teilt Proxmox den Festplattenspeicher auf (`local` für ISOs/Con
 
 1. **Prüfen des Speichers:** Ansicht des bisher aufgeteilten Speichers.
    <details>
-    <summary>📸 Screenshot: Local LVM Ansicht</summary>
+    <summary>Ansicht anzeigen: Local LVM Ansicht</summary>
   
     ![Local LVM Ansicht](screenshots/10_Local_lvm.png)
    </details>
 
    <details>
-    <summary>📸 Screenshot: Main Local Ansicht</summary>
+    <summary>Ansicht anzeigen: Main Local Ansicht</summary>
   
     ![Main Local Ansicht](screenshots/11_Main_local.png)
    </details>
 
 2. **Entfernen von `local-lvm`:** Entferne den `local-lvm`-Eintrag im Web-Interface.
    <details>
-    <summary>📸 Screenshot: LVM Löschen</summary>
+    <summary>Ansicht anzeigen: LVM Löschen</summary>
   
     ![LVM Löschen](screenshots/12_Delete_lvm.png)
    </details>
@@ -165,7 +165,7 @@ Da dieses Projekt auf einem Laptop läuft, möchten wir ihn zukünftig zugeklapp
 nano /etc/systemd/logind.conf
 ```
 - <details>
-   <summary>📸 Screenshot: Bearbeiten der logind.conf in Nano</summary>
+   <summary>Ansicht anzeigen: Bearbeiten der logind.conf in Nano</summary>
    
    ![Bearbeiten der logind.conf in Nano](screenshots/16_Edit.png)
   </details>
@@ -177,7 +177,7 @@ HandleLidSwitch=ignore
 HandleLidSwitchDocked=ignore
 ```
 - <details>
-   <summary>📸 Screenshot: Anpassung der Lid-Switch-Parameter</summary>
+   <summary>Ansicht anzeigen: Anpassung der Lid-Switch-Parameter</summary>
   
    ![Anpassung der Lid-Switch-Parameter](screenshots/17_This_to.png)
   </details>
@@ -188,7 +188,7 @@ HandleLidSwitchDocked=ignore
 systemctl restart systemd-logind.service
 ```
 - <details>
-   <summary>📸 Screenshot: Neustart des logind-Dienstes</summary>
+   <summary>Ansicht anzeigen: Neustart des logind-Dienstes</summary>
   
    ![Neustart des logind-Dienstes](screenshots/18_Close_lap_after_keepon.png)
   </details>
@@ -201,7 +201,7 @@ systemctl restart systemd-logind.service
 nano /etc/default/grub
 ```
 - <details>
-   <summary>📸 Screenshot: Bearbeiten der GRUB-Konfiguration</summary>
+   <summary>Ansicht anzeigen: Bearbeiten der GRUB-Konfiguration</summary>
   
    ![Bearbeiten der GRUB-Konfiguration](screenshots/19_Edit.png)
   </details>
@@ -212,7 +212,7 @@ nano /etc/default/grub
 GRUB_CMDLINE_LINUX="consoleblank=200"
 ```
 - <details>
-   <summary>📸 Screenshot: Einfügen von consoleblank=200</summary>
+   <summary>Ansicht anzeigen: Einfügen von consoleblank=200</summary>
   
    ![Einfügen von consoleblank=200](screenshots/20_Time.png)
   </details>
@@ -223,7 +223,7 @@ GRUB_CMDLINE_LINUX="consoleblank=200"
 update-grub
 ```
 - <details>
-   <summary>📸 Screenshot: Aktualisierung von GRUB (update-grub)</summary>
+   <summary>Ansicht anzeigen: Aktualisierung von GRUB (update-grub)</summary>
   
    ![Aktualisierung von GRUB](screenshots/21_update_Turnoff_screen.png)
   </details>
