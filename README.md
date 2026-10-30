@@ -1,4 +1,4 @@
-# 🚀 Home Lab & Server-Infrastruktur – Teil 1: Proxmox VE Bare-Metal-Installation
+# Home Lab & Server-Infrastruktur – Teil 1: Proxmox VE Bare-Metal-Installation
 
 Willkommen zum ersten Teil meiner Dokumentationsreihe zum Aufbau einer eigenen Server- und Virtualisierungsumgebung. In diesem Projekt zeige ich Schritt für Schritt, wie ich einen ausgedienten Laptop in einen leistungsstarken, professionellen Virtualisierungsserver mit **Proxmox Virtual Environment (PVE)** verwandelt habe.
 
